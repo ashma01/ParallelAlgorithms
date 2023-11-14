@@ -31,7 +31,6 @@ public class AlgorithmBenchmark {
         parallelKruskal = new ParallelKruskal();
         sequentialMST = new SequentialMST();
 
-        // Add your edges here
         for (int i = 0; i < numVertices - 1; i++) {
             parallelPrims.addEdge(i, i + 1, (int) (Math.random() * 100));
         }
@@ -39,7 +38,7 @@ public class AlgorithmBenchmark {
 
         for (int i = 0; i < numVertices - 1; i++) {
             int weight = (int) (Math.random() * 100);
-            edges.add(new Edge(i, i + 1, weight)); // Assuming Edge is a class you have defined
+            edges.add(new Edge(i, i + 1, weight));
         }
     }
 

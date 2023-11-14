@@ -53,7 +53,7 @@ class ParallelPrims {
                 break;
             }
             int u = current.id;
-            if (!inMST.add(u)) { // Add returns false if the element was already in the set
+            if (!inMST.add(u)) {
                 continue; // Skip if the vertex is already in MST
             }
 
