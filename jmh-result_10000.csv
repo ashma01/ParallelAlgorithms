@@ -1,0 +1,4 @@
+"Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: numVertices"
+"org.benchmark.parallel.AlgorithmBenchmark.benchmarkParallelKruskal","thrpt",1,5,2106.629993,20.567679,"ops/s",10000
+"org.benchmark.parallel.AlgorithmBenchmark.benchmarkParallelPrims","thrpt",1,5,144770.699499,794.476095,"ops/s",10000
+"org.benchmark.parallel.AlgorithmBenchmark.benchmarkSequential","thrpt",1,5,1113.058438,16.152358,"ops/s",10000
